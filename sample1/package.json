@@ -1,0 +1,16 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "description": "try to use webpack",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.1"
+  }
+}
